@@ -4,6 +4,10 @@
   --main-lite-color: #ffffff;
   --brand-text-color: #2196f3;
   --basement-text-color: rgba(255, 255, 255, 0.6);
+  --black-word-color: #000000;
+  --background-color: #2f303a;
+  --button-background: #f5f4fa;
+  --hero-button-background: #188ce8;
 }
 
 body {
@@ -17,11 +21,11 @@ address {
   font-style: normal;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-li {
+.list {
   list-style-type: none;
 }
 
@@ -32,25 +36,16 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--brand-text-color);
+  text-decoration: none;
 }
 
 .logo-word {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19px;
-  color: #000000;
+  color: var(--black-word-color);
 }
 
 .logo-word-white {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19px;
   color: var(--main-lite-color);
 }
 
@@ -58,12 +53,12 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.link-current {
+.current-link {
   color: var(--brand-text-color);
 }
 
@@ -71,7 +66,7 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -84,14 +79,14 @@ li {
 /* Герой */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
 .hero-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -103,7 +98,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -116,14 +111,14 @@ li {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--hero-button-background);
 }
 
 .benefit-plus-title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
@@ -132,7 +127,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--secondary-text-color);
 }
 
@@ -142,7 +137,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -153,7 +148,7 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -162,7 +157,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
 }
@@ -173,16 +168,17 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62;
   text-align: center;
   color: var(--primary-text-color);
-  background: #f5f4fa;
+  background: var(--button-background);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:focus,
+.current-btn {
   color: var(--main-lite-color);
   background: var(--brand-text-color);
 }
@@ -193,7 +189,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
@@ -202,21 +198,21 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
   color: var(--secondary-text-color);
 }
 
 /* Подвал */
 
 .foot-box {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
-.direction {
+.link-direction {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--main-lite-color);
 }
 
@@ -224,7 +220,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--basement-text-color);
 }
 
