@@ -1,0 +1,234 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-lite-color: #ffffff;
+  --brand-text-color: #2196f3;
+  --basement-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-size: 14px;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Хедер */
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: var(--brand-text-color);
+}
+
+.logo-word {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: #000000;
+}
+
+.logo-word-white {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: var(--main-lite-color);
+}
+
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.link-current {
+  color: var(--brand-text-color);
+}
+
+.contacts .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-text-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-lite-color);
+}
+
+.hero-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-lite-color);
+  background: var(--brand-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+.benefit-plus-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.benefit-plus-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: var(--secondary-text-color);
+}
+
+/* Секция чем мы занимаемся */
+
+.section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* Секция наша команда */
+
+.worker {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.worker-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+
+.portfolio-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  text-align: center;
+  color: var(--primary-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--main-lite-color);
+  background: var(--brand-text-color);
+}
+
+/* Секция картинки работ */
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-title-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87px;
+  color: var(--secondary-text-color);
+}
+
+/* Подвал */
+
+.foot-box {
+  background-color: #2f303a;
+}
+
+.direction {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: var(--main-lite-color);
+}
+
+.link-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: var(--basement-text-color);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--brand-text-color);
+}
