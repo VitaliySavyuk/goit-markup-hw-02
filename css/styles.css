@@ -23,6 +23,7 @@ address {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .list {
@@ -49,23 +50,33 @@ address {
   color: var(--main-lite-color);
 }
 
-.link {
+.header-link {
+  text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--brand-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--brand-text-color);
 }
 
 .current-link {
   color: var(--brand-text-color);
 }
 
-.contacts .link {
+.contacts .link,
+.contact-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -117,7 +128,6 @@ address {
 .benefit-plus-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -126,7 +136,6 @@ address {
 .benefit-plus-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -211,7 +220,6 @@ address {
 .link-direction {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--main-lite-color);
 }
@@ -219,7 +227,6 @@ address {
 .link-footer {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--basement-text-color);
 }
